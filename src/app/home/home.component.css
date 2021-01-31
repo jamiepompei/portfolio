@@ -1,0 +1,22 @@
+.p-profile{
+    background:url(/assets/imgs/headshot.jpeg);
+    height: 450px;
+    width: 100%;
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+}
+.p-about-text{
+    margin: 30px;
+    color: #acacac;
+    width: 90%;
+}
+
+h2, hr{
+    position: relative;
+    top:50%;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 0.05rem;
+    
+}
