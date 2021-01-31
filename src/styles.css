@@ -1,5 +1,10 @@
 /* You can add global styles to this file, and also import other style files */
 @import "~bootstrap/dist/css/bootstrap.css";
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+html, body{
+    font-family: 'Poppins';
+}
 
 body{
     margin: 0;
@@ -17,10 +22,14 @@ ul{
 }
 a, a:hover{
     text-decoration: none;
+    color: black;
 }
 
 h1, h2, h3, h4, h5, h6{
     font-weight: 700;
+}
+h1{
+    font-size: 45px;
 }
 
 /* COMMON */
@@ -35,6 +44,18 @@ h1, h2, h3, h4, h5, h6{
 }
 .p-flex-jc-sb{
     justify-content: space-between;
+}
+.p-viewprojects{
+    color: black;
+    
+    font-weight: 600;
+}
+.p-viewprojects img{
+    transition: all .5s;
+    transform: translateX(0);
+}
+.p-viewprojects:hover img{
+    transform: translateX(5px);
 }
 
 /*WRAPPER CLASS*/

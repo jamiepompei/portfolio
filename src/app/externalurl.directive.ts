@@ -8,9 +8,9 @@ const browser = typeof window !== 'undefined';
   selector: 'a'
 })
 export class ExternalurlDirective implements OnInit{
-  @Input() href: string;
-  @HostBinding('rel') rel: string;
-  @HostBinding('target') target: string;
+  @Input() href!: string;
+  @HostBinding('rel') rel!: string;
+  @HostBinding('target') target!: string;
 
   constructor() { }
 
