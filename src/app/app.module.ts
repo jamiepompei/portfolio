@@ -10,6 +10,7 @@ import { ExternalurlDirective } from './externalurl.directive';
 import { PortfolioComponent } from './portfolio/portfolio.component';
 import { ContactComponent } from './contact/contact.component';
 
+
 @NgModule({
   declarations: [
     AppComponent,

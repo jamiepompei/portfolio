@@ -1,0 +1,59 @@
+
+h6{
+    color:#ff8e71;
+}
+h3, .projects{
+    color: #9f5f80;
+}
+.left-viewprojects img{
+    transition: all .5s;
+    transform: translateX(0);
+}
+.left-viewprojects:hover img{
+    transform: translateX(5px);
+}
+.left-viewprojects{
+    cursor: pointer;
+}
+
+h3{
+    cursor:pointer;
+}
+h3:hover{
+    color:#ff8e71;
+    transform: translateX(5px);
+}
+h3{
+    transition: all .5s;
+    transform: translateX(0);
+}
+
+.selected{
+    text: bold;
+}
+.main-img{
+    border-radius: 8px;
+    max-width: 80%;
+    max-height: 700px;
+    display: block;
+    margin: 20px auto 0;
+}
+.project-description{
+    font-size: 15px;
+    color: #acacac;
+    width: 90%;
+}
+.skills{
+    font-weight: bold;
+    
+}
+
+.hosted-project{
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.frontendRepo, .backendRepo{
+    cursor: pointer;
+}
+

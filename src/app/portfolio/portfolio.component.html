@@ -1,1 +1,64 @@
-<p>portfolio works!</p>
+
+<section>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-4">
+                <div class="project-list">
+                    <h4 class="projects mb-4">Projects:</h4>
+                    <div *ngFor="let reversedProj of reversedProjects">
+                        <h6 (click)="onSelect(reversedProj)">
+                            <span [class.selected]="reversedProj == selectedProject" class="left-viewprojects">
+                                {{ reversedProj.title }} <img src="/assets/imgs/rgt.png" alt="icon for view my projects arrow" width ="12" class="ml-2"/>
+                            </span>
+                        </h6> 
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-sm-7">
+                <div class="row">
+                    <div class="col"><hr></div>
+                    <div class="col-auto">
+                        <h2>
+                            < RECENT WORK />
+                        </h2>
+                    </div>
+                    <div class="col"><hr></div>
+                </div>
+                <div>
+                    <div class="selected-project"> 
+                         <div *ngFor="let project of projects">
+                             <div *ngIf="project == selectedProject">
+                                <h3> 
+                                    <a a href="{{project.frontendRepoUrl}}">
+                                        {{ project.title }}
+                                    </a>
+                                </h3>  
+                                <div *ngFor="let image of project.mainImagePath">
+                                    <img class="main-img mb-3" alt="project image" src="{{ image }}">
+                                </div>
+                                    <div class="hosted-project" *ngIf="project.hostedUrl">
+                                        <a target="_blank" rel="noopener" href="{{project.hostedUrl}}" class="p-viewprojects mb-2">Live Project <img src="/assets/imgs/rgt.png" alt="icon for view my projects arrow" width ="18" class="ml-2"/></a>
+                                    </div>
+                                    <div class="frontendRepo" *ngIf="project.frontendRepoUrl">
+                                        <a target="_blank" rel="noopener" href="{{project.frontendRepoUrl}}" class="p-viewprojects mb-2">Frontend Repository <img src="/assets/imgs/rgt.png" alt="icon for view my projects arrow" width ="18" class="ml-2"/></a>
+                                    </div>
+                                    <div class="backendRepo" *ngIf="project.backendRepoUrl">
+                                        <a target="_blank" rel="noopener" href="{{project.backendRepoUrl}}" class="p-viewprojects mb-2">Backend Repository <img src="/assets/imgs/rgt.png" alt="icon for view my projects arrow" width ="18" class="ml-2"/></a>
+                                    </div>
+                                <p class="project-description mt-4 mb-3">{{ project.description }}</p>
+                                    
+                                <h4 class="skills">Demonstrates skills with:</h4>
+                                    <ul>
+                                        <li *ngFor="let technology of project.technologies"> <img src="/assets/imgs/rgt.png" alt="icon for view my projects arrow" width ="12" class="ml-2"/> {{ technology }}</li>
+                                    </ul>
+                                    <div class="underlist mb-4"></div>
+                             </div>
+                         </div>   
+                        </div>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+</section>    
