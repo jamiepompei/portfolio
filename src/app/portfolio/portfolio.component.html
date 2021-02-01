@@ -29,11 +29,11 @@
                     <div class="selected-project"> 
                          <div *ngFor="let project of projects">
                              <div *ngIf="project == selectedProject">
-                                <h3> 
+                               
                                     <a a href="{{project.frontendRepoUrl}}">
-                                        {{ project.title }}
+                                        <h3>{{ project.title }}</h3>
                                     </a>
-                                </h3>  
+                                  
                                 <div *ngFor="let image of project.mainImagePath">
                                     <img class="main-img mb-3" alt="project image" src="{{ image }}">
                                 </div>
