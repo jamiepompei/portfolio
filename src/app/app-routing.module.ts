@@ -1,7 +1,6 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule, ActivatedRouteSnapshot } from '@angular/router';
 import { ContactComponent } from './contact/contact.component';
-import { ExternalurlDirective } from './externalurl.directive';
 import { HomeComponent } from './home/home.component';
 import { PortfolioComponent } from './portfolio/portfolio.component';
 
