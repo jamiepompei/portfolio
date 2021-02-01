@@ -3,12 +3,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
 
 html, body{
-    font-family: 'Poppins';
+    font-family: 'Poppins';   
 }
 
 body{
     margin: 0;
-    padding: 0;
+    padding: 0; 
+}
+.section{
+    max-width: 1200px;
+    min-width: 1200px;
 }
 
 p{
@@ -67,7 +71,8 @@ h1{
     content: '';
     background: #583d72;
     height: 200vh;
-    width: 25vw;
+    max-width: 25vw;
+    min-width: 25vw;
     position: absolute;
     z-index: -1;
 
