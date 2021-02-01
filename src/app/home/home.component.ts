@@ -8,7 +8,7 @@ import Typewriter  from 't-writer.js';
 })
 export class HomeComponent implements OnInit, AfterViewInit {
 
-  @ViewChild('tw') typewriterElement: any;
+  @ViewChild('tw') typewriterElement;
 
 
   ngOnInit(): void {
