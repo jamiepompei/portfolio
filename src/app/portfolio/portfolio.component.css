@@ -2,9 +2,19 @@
 h6{
     color:#ff8e71;
 }
+h6:hover{
+    color:#9f5f80;  
+}
 h3, .projects{
     color: #9f5f80;
 }
+.p-viewprojects:hover{
+    color: #ff8e71;;
+}
+.p-viewprojects{
+    color: #9f5f80;
+}
+
 .left-viewprojects img{
     transition: all .5s;
     transform: translateX(0);
@@ -45,6 +55,7 @@ h3{
 }
 .skills{
     font-weight: bold;
+    color:#9f5f80; 
     
 }
 
