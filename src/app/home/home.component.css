@@ -1,6 +1,5 @@
-.p-profile{
-    margin-top:650px;
-    background:url(src/assets/imgs/headshot.jpeg);
+.p-profile img{
+    margin-top:750px;
     height: 450px;
     width: 100%;
     background-size: cover;
