@@ -21,7 +21,6 @@ import { ContactComponent } from './contact/contact.component';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    //NgbModule
   ],
   providers: [],
   bootstrap: [AppComponent]
