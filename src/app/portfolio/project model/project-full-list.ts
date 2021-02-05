@@ -37,6 +37,16 @@ export const projects: Project[] = [
     },
     {
         projectId: 4,
+        frontendRepoUrl: 'https://github.com/nicolepompei/angular-typing-game',
+        backendRepoUrl: '',
+        hostedUrl: 'https://angular-typing-game-six.vercel.app/',
+        title: "typing game",
+        description: 'Angular11 and Bulma based typing game with a randomly generated sentence. The colors of the letters in the randomly generated sentence change based on user input. Pending input remains gray, correct input turns green and incorrect input turns red. If a user types all chracters successfully, a success message displays.',
+        mainImagePath: ['assets/imgs/typinggame.png'],
+        technologies: ['Angular11', 'HTML5', 'CSS3', 'Typescript', 'Bulma', 'Structural Directives', 'Event Binding', 'Property Binding', 'Interpolation']
+    },
+    {
+        projectId: 5,
         frontendRepoUrl: 'https://github.com/nicolepompei/drum-machine-javascript-html-css',
         backendRepoUrl: '',
         hostedUrl: 'https://drum-machine-javascript-html-css.vercel.app/',
@@ -45,9 +55,8 @@ export const projects: Project[] = [
         mainImagePath: ['assets/imgs/drum-machine.png'],
         technologies: ['HTML5', 'CSS3', 'Javascript', 'Event Handling', 'Key Events', 'Click Events']
     },
-
     {
-        projectId: 5,
+        projectId: 6,
         frontendRepoUrl: 'https://github.com/nicolepompei/blogprojectfrontend',
         backendRepoUrl: 'https://github.com/nicolepompei/blog_project',
         hostedUrl: "https://blog-project-frontend.herokuapp.com/",
