@@ -65,12 +65,13 @@ h1{
 /*WRAPPER CLASS*/
 .p-wrapper{
     position: relative;
+    min-height: 100%;
 }
 
 .p-wrapper::before{
     content: '';
     background: #583d72;
-    height: 200vh;
+    min-height: 105%;
     max-width: 25vw;
     min-width: 25vw;
     position: absolute;

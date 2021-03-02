@@ -1,5 +1,11 @@
+.home_intro{
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 120px;
+}
+
 .p-profile img{
-    margin-top:670px;
+    justify-content: left;
     height: auto;
     width:auto;
     max-width: 100%;
@@ -9,13 +15,21 @@
     border-radius: 250px;
 }
 .p-about-text{
-    
+    display: flex;
+    flex-direction: column;
     color: #acacac;
-    width: 90%;
+    margin-left: auto;
+    width: 70%;
     font-size: 18px;
 }
 .about-section{
-    margin-top: 410px;
+    padding-bottom: 100px;
+    padding-top: 50px;
+    margin-top: 200px;
+    
+    justify-content: center;
+    height: 100%;
+   
 }
 .hello-header{
     margin-top:100px;
@@ -32,6 +46,12 @@ h2, hr{
 .p-viewprojects{
     color: #9f5f80;
     font-size: 25px;
+}
+.p-viewprojects-link{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    flex-direction: row;
 }
 .p-viewprojects:hover{
     color:#ff8e71;
