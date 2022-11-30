@@ -30,7 +30,8 @@ export class HomeComponent implements OnInit, AfterViewInit {
         "I am a musician.",
         "I play the drums.",
         "I am a coffee lover.",
-        "I am a dog lover."
+        "I am a dog lover.",
+        "My pronouns are they/them."
         )
         .start()
   
