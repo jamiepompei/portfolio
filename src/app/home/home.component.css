@@ -43,6 +43,13 @@ h2, hr{
     letter-spacing: 0.05rem;
     
 }
+
+h3{
+    position: relative;
+    top:80%;
+    font-weight: bold;
+    letter-spacing: 0.05rem;
+}
 .p-viewprojects{
     color: #9f5f80;
     font-size: 25px;
@@ -52,8 +59,21 @@ h2, hr{
     flex-direction: column;
     flex: 1;
     flex-direction: row;
+    justify-content: center;
 }
 .p-viewprojects:hover{
     color:#ff8e71;
     transform: translateX(5px);
 }
+
+.skills{
+    color:#ff8e71;
+}
+.p-skills{
+    color:black;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    font-size: 18px;
+}
+
