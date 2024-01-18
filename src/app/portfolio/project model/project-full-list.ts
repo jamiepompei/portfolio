@@ -59,7 +59,7 @@ export const projects: Project[] = [
         projectId: 6,
         frontendRepoUrl: 'https://github.com/nicolepompei/blogprojectfrontend',
         backendRepoUrl: 'https://github.com/nicolepompei/blog_project',
-        hostedUrl: "https://blog-project-frontend.herokuapp.com/",
+        hostedUrl: "",
         title: 'blrb',
         description: 'Created with an Agile team of 6, "blrb" is a full stack blog application based on Medium and tumblr. I was personally responsible for contributing to the backend architecture, JWT functionality on the front end and backend, BlogPost Service and Auth Controller Tests with JUnit5 and Mockito, HTTP Interceptor and error handling on the front end, tagbar linking functionality, and front end styling with custom CSS.',
         mainImagePath: ['assets/imgs/blrb-full-post.png'],
