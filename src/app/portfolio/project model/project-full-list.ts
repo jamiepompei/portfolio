@@ -64,6 +64,26 @@ export const projects: Project[] = [
         description: 'Created with an Agile team of 6, "blrb" is a full stack blog application based on Medium and tumblr. I was personally responsible for contributing to the backend architecture, JWT functionality on the front end and backend, BlogPost Service and Auth Controller Tests with JUnit5 and Mockito, HTTP Interceptor and error handling on the front end, tagbar linking functionality, and front end styling with custom CSS.',
         mainImagePath: ['assets/imgs/blrb-full-post.png'],
         technologies: ['Spring Boot', 'Angular11', 'Typescript', 'HTML5', 'CSS3', 'Bootstrap', 'MVC', 'RESTful Services', 'JWT', 'AWS S3 Cloud Storage', 'MySQL', 'CRUD', 'Builder Pattern', 'Heroku Deployment']
+    },
+    {
+        projectId: 7,
+        frontendRepoUrl: 'https://github.com/jamiepompei/react-todo-list-app',
+        backendRepoUrl: '',
+        hostedUrl: "https://react-todo-list-app-delta.vercel.app/",
+        title: 'todo list app',
+        description: 'This app is a small todo list program that allows a user to add todos, toggle them as complete/incomplete, and delete them from the list. When there are no todo items present, a string of "No todos" will appear in place of a list of todos. The app utilizes the useEffect React Hook to persist todo items in local storage and the useState React Hook to load todo items from local storage. The purpose of this app is to explore React concepts including custom components, hooks, props, and broadly how to write and format React code.',
+        mainImagePath: ['assets/imgs/react-todo-list-app.png'],
+        technologies: ['React', 'useEffect', 'useState', 'Javascript']
+    },
+    {
+        projectId: 8,
+        frontendRepoUrl: '',
+        backendRepoUrl: 'https://github.com/jamiepompei/media-inventory-app-server',
+        hostedUrl: "",
+        title: 'media inventory CRUD app',
+        description: 'Independently developing a web-based media CRUD inventory application using Spring Boot, JPA, SQL, Typescript, and React. The application will include functionality for user authentication, login, and logout via JSONWebToken. Users have ADMIN access over their own media collections and can grant VIEW access to their collections to other users. Users can search the views based on tags to view media by collection or by specific attributes.',
+        mainImagePath: ['assets/imgs/media-inventor-app-books-get-api.png'],
+        technologies: ['Java', 'Spring Boot', 'Hibernate', 'SQL', 'Typescript', 'React']
     }
 
 ]
