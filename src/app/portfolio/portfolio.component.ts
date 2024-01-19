@@ -8,6 +8,7 @@ import { projects } from './project model/project-full-list';
   styleUrls: ['./portfolio.component.css'],
 })
 export class PortfolioComponent implements OnInit {
+  //projects are stored sequentially by id
   projects = projects;
   selectedProject!: Project;
   reversedProjects!: Project[];
@@ -15,9 +16,22 @@ export class PortfolioComponent implements OnInit {
   constructor() {}
 
   ngOnInit(): void {
+    //set the selected project to be the latest project
     this.onSelect(this.projects[this.projects.length - 1]);
-    // on init, sort projects by project id, reverse to display data descending by project
-    this.reversedProjects = this.projects.sort((a,b) => {
+    //sets the order of projects in projects list
+    this.reversedProjects = this.setReversedProjects();
+  }
+
+  public onSelect(project: Project) {
+    this.selectedProject = project;
+  }
+
+  //makes a copy of projects array
+  //sort projects by project id, 
+  //reverse to display data descending by project id
+  setReversedProjects() {
+    const projectsCopy = [...projects];
+    return projectsCopy.sort((a,b) => {
       if (a.projectId > b.projectId) {
         return 1;
       }
@@ -26,9 +40,5 @@ export class PortfolioComponent implements OnInit {
       }
       return 0;
     }).reverse();
-  }
-
-  public onSelect(project: Project) {
-    this.selectedProject = project;
   }
 }
