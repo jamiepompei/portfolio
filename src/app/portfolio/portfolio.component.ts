@@ -5,25 +5,30 @@ import { projects } from './project model/project-full-list';
 @Component({
   selector: 'app-portfolio',
   templateUrl: './portfolio.component.html',
-  styleUrls: ['./portfolio.component.css']
+  styleUrls: ['./portfolio.component.css'],
 })
 export class PortfolioComponent implements OnInit {
   projects = projects;
   selectedProject!: Project;
   reversedProjects!: Project[];
 
-
-
-  constructor() { }
+  constructor() {}
 
   ngOnInit(): void {
     this.onSelect(this.projects[this.projects.length - 1]);
-    this.reversedProjects = projects.reverse();
+    // on init, sort projects by project id, reverse to display data descending by project
+    this.reversedProjects = this.projects.sort((a,b) => {
+      if (a.projectId > b.projectId) {
+        return 1;
+      }
+      if (a.projectId < b.projectId) {
+        return -1;
+      }
+      return 0;
+    }).reverse();
   }
 
-
-  public onSelect(project: Project){
+  public onSelect(project: Project) {
     this.selectedProject = project;
   }
-
 }
