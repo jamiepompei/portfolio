@@ -25,7 +25,7 @@ export class HomeComponent implements OnInit, AfterViewInit {
 
     writer
         .strings(
-          400,
+          100,
         "My pronouns are they/them.",
         "I am a software engineer.",
         "I am a musician.",

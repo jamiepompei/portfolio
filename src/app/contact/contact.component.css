@@ -1,11 +1,25 @@
 .p-contact-text{
-    
     color: #acacac;
     width: 90%;
     text-align: center;
-    padding-left: 60px;
 }
 
 .row{
     padding-top: 50px;
 }
+
+.contact-page{
+    position: relative;
+    min-height: 100%;
+}
+
+.contact-page::before{
+    background: white !important;
+    content: '';
+    min-height: 100%;
+    min-width: 25vw;
+    position: absolute;
+    z-index: -1;
+}
+
+

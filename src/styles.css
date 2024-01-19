@@ -71,10 +71,8 @@ h1{
 .p-wrapper::before{
     content: '';
     background: #583d72;
-    min-height: 105%;
-    max-width: 25vw;
+    min-height: 100%;
     min-width: 25vw;
     position: absolute;
     z-index: -1;
-
 }

@@ -1,7 +1,11 @@
 .home_intro{
     display: flex;
     flex-wrap: wrap;
-    margin-bottom: 120px;
+    
+}
+
+.hello-header-container{
+    margin-left: 50px;
 }
 
 .p-profile img{
@@ -24,9 +28,6 @@
 }
 .about-section{
     padding-bottom: 100px;
-    padding-top: 50px;
-    margin-top: 200px;
-    
     justify-content: center;
     height: 100%;
    
