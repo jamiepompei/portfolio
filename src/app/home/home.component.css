@@ -1,7 +1,6 @@
 .home_intro{
     display: flex;
     flex-wrap: wrap;
-    
 }
 
 .hello-header-container{
@@ -9,7 +8,6 @@
 }
 
 .p-profile img{
-    justify-content: left;
     height: auto;
     width:auto;
     max-width: 100%;
@@ -30,9 +28,7 @@
     margin-top: 20px;
     justify-content: center;
 }
-.hello-header{
-    margin-top:100px;
-}
+
 
 h2, hr{
     position: relative;
