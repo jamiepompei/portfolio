@@ -3,6 +3,20 @@
     text-align: center;
 }
 
+h5, .h5-linkedin-text{
+    text-align: center;
+    cursor: pointer;
+}
+
+h5:hover{
+    transform: translateX(5px);
+}
+    
+h5{
+    transition: all .5s;
+    transform: translateX(0);
+}
+
 .row{
     padding-top: 50px;
 }
@@ -11,14 +25,4 @@
     position: relative;
     min-height: 100%;
 }
-
-.contact-page::before{
-    background: white !important;
-    content: '';
-    min-height: 100%;
-    min-width: 25vw;
-    position: absolute;
-    z-index: -1;
-}
-
 
