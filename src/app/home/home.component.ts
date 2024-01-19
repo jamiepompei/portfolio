@@ -25,14 +25,13 @@ export class HomeComponent implements OnInit, AfterViewInit {
 
     writer
         .strings(
-          100,
         "My pronouns are they/them.",
         "I am a software engineer.",
         "I am a musician.",
         "I play the drums.",
         "I am a coffee lover.",
         "I am a dog lover.",
-        "I am a vegetarian.",
+        "I am a pescatarian.",
         "I love the outdoors."
         )
         .start()
