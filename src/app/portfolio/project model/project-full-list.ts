@@ -81,8 +81,8 @@ export const projects: Project[] = [
         backendRepoUrl: 'https://github.com/jamiepompei/media-inventory-app-server',
         hostedUrl: "",
         title: 'media inventory CRUD app',
-        description: 'Independently developing a web-based media CRUD inventory application using Spring Boot, JPA, SQL, Typescript, and React. The application will include functionality for user authentication, login, and logout via JSONWebToken. Users have ADMIN access over their own media collections and can grant VIEW access to their collections to other users. Users can search the views based on tags to view media by collection or by specific attributes.',
-        mainImagePath: ['assets/imgs/media-inventor-app-books-get-api.png'],
+        description: 'Independently developing a web-based media CRUD inventory application using Spring Boot, JPA, SQL, Typescript, and React. The application will include functionality for user authentication, login, and logout via JSONWebToken. Users have ADMIN access over their own media collections and can grant VIEW access to their collections to other users. Users can search their top level collections and within an individual collection.',
+        mainImagePath: ['assets/imgs/GETBOOKS_media_inventory_app.png'],
         technologies: ['Java', 'Spring Boot', 'Hibernate', 'SQL', 'Typescript', 'React']
     }
 
