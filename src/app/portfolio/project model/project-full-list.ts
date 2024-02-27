@@ -4,18 +4,6 @@ export const projects: Project[] = [
 
     {
         projectId: 1,
-        frontendRepoUrl: 'https://github.com/nicolepompei/cats-casino',
-        backendRepoUrl: '',
-        hostedUrl: '',
-        title: "casino games",
-        description: 'Worked as part of a team of 5 to develop a Java based gaming application designed with the Decorator pattern that allows users to log into a Casino with a new account and play various gambling and non-gambling card and dice games (Blackjack, Go Fish, Craps, Snake Eyes). Responsible for the delivery of the card deck and Blackjack and Go Fish games and JUnit tests for these card games. Pair coded the game menus and participated in code reviews and debugging.',
-        mainImagePath: ['assets/imgs/casino.png'],
-        technologies: ['Java', 'Interfaces', 'Game logic', 'JUnit Testing', 'Decorator Pattern']
-    },
-
-
-    {
-        projectId: 2,
         frontendRepoUrl: 'https://github.com/nicolepompei/game-boy-drum-machine',
         backendRepoUrl: '',
         hostedUrl: 'https://game-boy-drum-machine.vercel.app/',
@@ -24,9 +12,8 @@ export const projects: Project[] = [
         mainImagePath: ['assets/imgs/gameboy-drum-machine.png'],
         technologies: ['Javascript', 'HTML5', 'CSS3', 'Key Events', 'Event Handling']
     },
-
     {
-        projectId: 3,
+        projectId: 2,
         frontendRepoUrl: 'https://github.com/nicolepompei/angular-password-generator',
         backendRepoUrl: '',
         hostedUrl: 'https://password-generator-gilt-five.vercel.app/',
@@ -36,7 +23,7 @@ export const projects: Project[] = [
         technologies: ['Angular11', 'HTML5', 'CSS3', 'Typescript', 'Bulma', 'Event Binding', 'Property Binding']
     },
     {
-        projectId: 4,
+        projectId: 3,
         frontendRepoUrl: 'https://github.com/nicolepompei/angular-typing-game',
         backendRepoUrl: '',
         hostedUrl: 'https://angular-typing-game-six.vercel.app/',
@@ -46,7 +33,7 @@ export const projects: Project[] = [
         technologies: ['Angular11', 'HTML5', 'CSS3', 'Typescript', 'Bulma', 'Structural Directives', 'Event Binding', 'Property Binding', 'Interpolation']
     },
     {
-        projectId: 5,
+        projectId: 4,
         frontendRepoUrl: 'https://github.com/nicolepompei/drum-machine-javascript-html-css',
         backendRepoUrl: '',
         hostedUrl: 'https://drum-machine-javascript-html-css.vercel.app/',
@@ -56,7 +43,7 @@ export const projects: Project[] = [
         technologies: ['HTML5', 'CSS3', 'Javascript', 'Event Handling', 'Key Events', 'Click Events']
     },
     {
-        projectId: 6,
+        projectId: 5,
         frontendRepoUrl: 'https://github.com/nicolepompei/blogprojectfrontend',
         backendRepoUrl: 'https://github.com/nicolepompei/blog_project',
         hostedUrl: "",
@@ -66,7 +53,7 @@ export const projects: Project[] = [
         technologies: ['Spring Boot', 'Angular11', 'Typescript', 'HTML5', 'CSS3', 'Bootstrap', 'MVC', 'RESTful Services', 'JWT', 'AWS S3 Cloud Storage', 'MySQL', 'CRUD', 'Builder Pattern', 'Heroku Deployment']
     },
     {
-        projectId: 7,
+        projectId: 6,
         frontendRepoUrl: 'https://github.com/jamiepompei/react-todo-list-app',
         backendRepoUrl: '',
         hostedUrl: "https://react-todo-list-app-delta.vercel.app/",
@@ -76,7 +63,7 @@ export const projects: Project[] = [
         technologies: ['React', 'useEffect', 'useState', 'Javascript']
     },
     {
-        projectId: 8,
+        projectId: 7,
         frontendRepoUrl: '',
         backendRepoUrl: 'https://github.com/jamiepompei/media-inventory-app-server',
         hostedUrl: "",
@@ -84,8 +71,17 @@ export const projects: Project[] = [
         description: 'Independently developing a web-based media CRUD inventory application using Spring Boot, JPA, SQL, Typescript, and React. The application will include functionality for user authentication, login, and logout via JSONWebToken. Users have ADMIN access over their own media collections and can grant VIEW access to their collections to other users. Users can search their top level collections and within an individual collection.',
         mainImagePath: ['assets/imgs/GETBOOKS_media_inventory_app.png'],
         technologies: ['Java', 'Spring Boot', 'Hibernate', 'SQL', 'Typescript', 'React']
+    },
+    {
+        projectId: 8,
+        frontendRepoUrl: 'https://github.com/jamiepompei/MERN-AI-ChatBot/tree/main/frontend',
+        backendRepoUrl: 'https://github.com/jamiepompei/MERN-AI-ChatBot/tree/main/backend',
+        hostedUrl: "",
+        title: 'MERN AI Chatbot',
+        description: 'Independently developed a modern MERN stack real-time AI chatbot similar to ChatGPT using the OpenAI API with user authentication and authorization via JWT, http-only cookies, and React AuthContext. The application stores users chats in a database to keep track of conversations and a user can delete their chat history anytime. The UI is capable of showing code blocks if requested by the user and is fully responsive across devices.',
+        mainImagePath: ['assets/imgs/mernstack-ai-chatbot.png'],
+        technologies: ['MongoDB', 'Express.js', 'React.js', 'Node.js', 'Typescript', 'Open-AI API', 'Vite', 'Material UI']
     }
-
 ]
 
 
