@@ -78,9 +78,9 @@ export const projects: Project[] = [
         backendRepoUrl: 'https://github.com/jamiepompei/MERN-AI-ChatBot/tree/main/backend',
         hostedUrl: "",
         title: 'MERN AI Chatbot',
-        description: 'Independently developed a modern MERN stack real-time AI chatbot similar to ChatGPT using the OpenAI API with user authentication and authorization via JWT, http-only cookies, and React AuthContext. The application stores users chats in a database to keep track of conversations and a user can delete their chat history anytime. The UI is capable of showing code blocks if requested by the user and is fully responsive across devices.',
+        description: "Independently developed a web-based AI Chatbot application using MERN Stack, OpenAI API, JWT Tokens, HTTP-Only Cookies, Signed Cookies, Password Encryption, and Middleware Chains. This application is a customized and secure chatbot with protected routes and verification checks where each user's messages can be retrieved or deleted from the database. The chat display is capable of showing code blocks and is fully responsive across devices.",
         mainImagePath: ['assets/imgs/mernstack-ai-chatbot.png'],
-        technologies: ['MongoDB', 'Express.js', 'React.js', 'Node.js', 'Typescript', 'Open-AI API', 'Vite', 'Material UI']
+        technologies: ['MongoDB', 'Express.js', 'React.js', 'Node.js', 'Typescript', 'Open-AI API', 'Vite', 'Material UI', 'JWT Tokens', 'HTTP-Only Cookies']
     }
 ]
 
